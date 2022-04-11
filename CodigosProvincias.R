@@ -38,3 +38,9 @@ funcion_provincias <- function(base,colBase,colTabla) {
 #       - Nombre_corto: ej, "BUE"
 #       - Numero_numeric: ej, 6
 #       - Numero_character: ej, "06"  
+
+
+# EJEMPLO:
+# prueba <- c("Salta","San Juan","San Luis")%>% as.data.frame()
+# colnames(prueba) <- "prov" 
+# aver <- funcion_provincias(prueba,prov,Nombre)
