@@ -1,3 +1,5 @@
+# Función para leer todas las hojas de un archivo de excel.
+
 library(readxl)
 
 lectura_hojas <- function(archivo, tibble = FALSE) { 
