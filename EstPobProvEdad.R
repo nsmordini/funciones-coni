@@ -32,6 +32,7 @@ Tabla_pobl_departamentos_a_provincias <- function(pob1){
   return(Tabla_poblacion)
 }
 
-# Para usar esto, una vez copiado en el directorio de trabajo, escribir:
-# source("EstPobProvEdad.R",encoding = "utf-8")
+# Ejemplo uso: 
+# Poblacion_recodificada_2020 <- Tabla_pobl_departamentos_a_provincias(poblacion_2020)
+# Siendo poblacion_2020 la hoja correspondiente al archivo de las estimaciones poblacionales por departamento
 
