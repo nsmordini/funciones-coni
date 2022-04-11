@@ -1,3 +1,5 @@
+# Para obtener todas las formas en que pueden estar registradas las provincias en las distintas bases
+
 # Cuidado con CABA! Puede llegar a estar como "Ciudad de Buenos Aires"... en ese caso, cambiarlo
 
 funcion_provincias <- function(base,colBase,colTabla) {
